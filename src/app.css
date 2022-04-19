@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --rounded-box: 1rem;
+}
+
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%; font-size 1em = 10px on default browser settings */
+  background-image: radial-gradient(hsla(var(--bc)/.2) .5px,hsla(var(--b2)/1) .5px);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-size: 1.6rem; */
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.root-container {
+  padding: 1.2rem;
+}
+
+.rounded-box {
+  border-radius: var(--rounded-box,1rem);
+}
+
+.cursor-pointer {
+  cursor:pointer;
+}

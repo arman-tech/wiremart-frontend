@@ -1,0 +1,12 @@
+.text-3xl {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+}
+
+.mt-x0\.75 {
+    margin-top: 0.75rem;
+}
+
+.mt-x4 {
+    margin-top: 1.75rem;
+}
