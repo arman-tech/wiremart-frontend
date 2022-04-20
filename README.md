@@ -5,6 +5,6 @@ Wiremart demonstrates the ability to create a small store that can handle some o
 
 Steps in running wiremart-frontend:
 1.	You will need to have installed the latest version of NodeJS: Download | Node.js (nodejs.org)
-2.	In a terminal (command prompt) of your choice you will need to go the directory where you have cloned wiremart-frontend project and type the following command: `npm install`
-3.	After the all the packages have been downloaded, you will need to run the following command: `npm run start`.  Please make sure that port 3000 is not already being used other application.
+2.	In a terminal (command prompt) of your choice you will need to go to the directory where you have cloned wiremart-frontend project and type the following command: `npm install`
+3.	After all the packages have been downloaded, you will need to run the following command: `npm run start`.  Please make sure that port 3000 is not already being used by other application.
 4.	Using any web browser go to http://localhost:3000/  If another application is using port 3000 then you will need to update the port number according to what has been outputted in step 3 after running `npm run start`
