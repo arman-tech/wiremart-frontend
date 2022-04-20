@@ -1,5 +1,5 @@
 # wiremart-frontend
-Wiremart frontend is using Typescript, Vue 3, Vue Router, Axios, Vue i18n, and Pinia (Vuex 5).
+Wiremart frontend is using Typescript, Vue 3, Vue Router, Axios, Vue i18n, Pinia (Vuex 5), Tailwind CSS, and Daisy UI.
 Wiremart frontend demonstrates the type of front-end technologies you will need to use in creating a Vue 3 project.  Eventually, there will be a wiremart-backend that will go hand in hand with this front-end version.
 Wiremart demonstrates the ability to create a small store that can handle some of the basic features one should expect from an e-commerce website.
 
