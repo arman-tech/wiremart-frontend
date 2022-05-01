@@ -1,5 +1,5 @@
 import { defineComponent, computed } from 'vue';
-import ProductCart from '../../components/product-cart/product-cart.vue';
+import ProductCard from '../../components/product-card/product-card.vue';
 import { useCartStore } from '../../store/cart';
 import { CartItem } from './../../models/cartItem';
 import { useProductStore } from './../../store/products';
@@ -7,7 +7,7 @@ import { useI18n } from 'vue-i18n'
   
   export default defineComponent ({
     components: {
-      ProductCart
+      ProductCard
     },
     setup() {
       const productStore = useProductStore();

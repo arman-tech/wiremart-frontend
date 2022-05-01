@@ -2,7 +2,7 @@
     <div class="flex flex-row flex-wrap">
          <div v-for="(prod, index) in products" :key="index">
             <div class="card-padding">
-                <ProductCart :product = prod @addToCart="handleAddToCart" 
+                <ProductCard :product = prod @addToCart="handleAddToCart" 
                 :quantity="handleCartQtySelected(prod.id)" />
             </div>
         </div>   

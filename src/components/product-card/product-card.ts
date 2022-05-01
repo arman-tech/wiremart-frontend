@@ -1,10 +1,10 @@
 import { defineComponent, PropType, ref, computed, toRefs } from 'vue';
-import { Product }  from './../../models/product';
-import { CartItem } from './../../models/cartItem';
+import { Product }  from '../../models/product';
+import { CartItem } from '../../models/cartItem';
 import { useI18n } from 'vue-i18n';
 
 export default defineComponent ({
-    name: "productCart",
+    name: "productCard",
     props: {
         product: { type: Object as PropType<Product>, required: true },
         quantity: {type: Number, default: 0}

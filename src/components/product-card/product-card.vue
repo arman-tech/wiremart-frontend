@@ -37,5 +37,5 @@
     </div>
     </div>
 </template>
-<script src="./product-cart.ts" lang="ts" />
-<style src="./product-cart.css" />
+<script src="./product-card.ts" lang="ts" />
+<style src="./product-card.css" />
