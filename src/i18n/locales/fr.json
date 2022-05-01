@@ -7,5 +7,10 @@
         "empty-cart": "Le panier est vide",
         "complete-order": "Complétez la commande",
         "review-cart": "Vérifiez votre panier"
-    }    
+    },
+    "home": {
+        "addToCart": "Ajouter au panier",
+        "soldOut": "SOLDER!",
+        "selectQty": "Sélectionnez la quantité"
+    } 
 }
