@@ -40,4 +40,4 @@
     </div>
 </template>
 <script src="./product-card.ts" lang="ts" />
-<style src="./product-card.css" />
+<style src="./product-card.css" scoped />
